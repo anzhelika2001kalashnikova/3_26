@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.GUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="58" y="68" width="622" height="273"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="GUI"/>
+    <children>
+      <component id="efa59" class="javax.swing.JTextField" binding="createText">
+        <constraints/>
+        <properties>
+          <columns value="10"/>
+        </properties>
+      </component>
+      <component id="a7c36" class="javax.swing.JButton" binding="createButton">
+        <constraints/>
+        <properties>
+          <text value="Добавить"/>
+        </properties>
+      </component>
+      <component id="ad180" class="javax.swing.JTextField" binding="resultText">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+        </properties>
+      </component>
+      <component id="a69b4" class="javax.swing.JButton" binding="resultButton">
+        <constraints/>
+        <properties>
+          <text value="Результат"/>
+        </properties>
+      </component>
+      <component id="f06d2" class="javax.swing.JCheckBox" binding="checkBox">
+        <constraints/>
+        <properties>
+          <text value="Стандартная очередь"/>
+        </properties>
+      </component>
+      <component id="bcc19" class="javax.swing.JTextField" binding="textList">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
